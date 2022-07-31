@@ -7,3 +7,4 @@ async function latest(package) {
   return json["dist-tags"].latest;
 }
 
+module.exports = { latest };
