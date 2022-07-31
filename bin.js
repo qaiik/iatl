@@ -7,7 +7,7 @@ async function main() {
   const dependencies = await locateSFD();
   
   for (const dependency of dependencies) {
-    const parsed = parse(dependency);
+    const parsed = parseDependencies(dependency);
     
     const Latest = await latest(parsed.packageName);
     if (Latest !== parsed.version && !parsed.unsafeInstalls) {
