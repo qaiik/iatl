@@ -1,0 +1,24 @@
+{
+  "name": "iatlvm",
+  "version": "1.0.2",
+  "description": "i@l. automatically installs latest version of dependencies in sfpack.json.",
+  "main": "bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qaiik/iatl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qaiik/iatl/issues"
+  },
+  "homepage": "https://github.com/qaiik/iatl#readme",
+  "bin": "./bin.js",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
