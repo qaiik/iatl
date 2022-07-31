@@ -1,5 +1,5 @@
 const { latest } = require("./utils/getLatestVersion.js");
-const locateSFD = require("./utils/parseSFD.js");
+const locateSFD = require("./utils/locateSFD.js");
 const parseDependencies = require("./utils/parseDeps.js");
 const install = require("./utils/installPackage.js");
 
